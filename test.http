@@ -1,0 +1,33 @@
+@baseUrl = http://localhost:3000/
+
+### GET
+{{baseUrl}}
+
+### Create TODO
+POST {{baseUrl}} 
+content-type: application/json
+accept: application/json
+
+{
+    "todo" : "Mochammad Ricky"
+}
+
+### Update Todo
+
+PUT {{baseUrl}} 
+content-type: application/json
+accept: application/json
+
+{
+    "id" : 0,
+    "todo" : "Belajar Nodejs"
+}
+### Update Todo 2
+PUT {{baseUrl}} 
+content-type: application/json
+accept: application/json
+
+{
+    "id" : 0,
+    "todo" : "Belajar Nodejs Awesome Javascript"
+}
